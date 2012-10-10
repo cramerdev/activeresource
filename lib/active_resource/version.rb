@@ -1,10 +1,9 @@
 module ActiveResource
   module VERSION #:nodoc:
-    MAJOR = 4
-    MINOR = 0
-    TINY  = 0
-    PRE   = "beta"
+    MAJOR = 3
+    MINOR = 2
+    TINY  = 8
 
-    STRING = [MAJOR, MINOR, TINY, PRE].compact.join('.')
+    STRING = [MAJOR, MINOR, TINY].compact.join('.')
   end
 end

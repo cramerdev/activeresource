@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = %w( README.rdoc )
   s.rdoc_options.concat ['--main',  'README.rdoc']
 
-  s.add_dependency('activesupport', '~> 4.0.0.beta')
-  s.add_dependency('activemodel',   '~> 4.0.0.beta')
+  s.add_dependency('activesupport', "~> #{ActiveResource::VERSION::STRING}")
+  s.add_dependency('activemodel',   "~> #{ActiveResource::VERSION::STRING}")
   s.add_development_dependency('mocha', '>= 0.9.8')
 end
